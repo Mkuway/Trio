@@ -23,13 +23,13 @@ int main()
 
 void swap(int& red, int& green, int& blue)
 {
-        int temp = red;
-        red = green;
-        green = blue;
-        blue = temp;
+      //  int temp = red;
+       // red = green;
+      //  green = blue;
+       // blue = temp;
     if(red>green && green>blue)
     {
-        //already in order
+           //already in order
     }
     else if(blue > green && green > red)
     {
