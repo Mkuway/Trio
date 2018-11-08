@@ -57,6 +57,15 @@ void swap(int& red, int& green, int& blue)
             green = red;
             red = temp;
     }
+    else if(green > blue && blue > red)
+    {
+            int temp = green;
+            green = blue;
+            blue = temp;
+            int temp2 = blue;
+            blue = red;
+            red = temp2;
+    }
     
 }
 // <-- ADD YOUR FUNCTION DEFINITON HERE
